@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #Update package list
-sudo apt update
+sudo apt update > /dev/null 2>&1
+echo -e "\n------------------\n"
 
 #Apache
 echo "Installing apache..."
@@ -30,15 +31,15 @@ else
 fi
 
 if [[ -z $(dpkg -l | grep -i mysql-server) ]]; then
-  MYSQL_WORKS='OK'
-else
   MYSQL_WORKS='FAILED'
+else
+  MYSQL_WORKS='OK'
 fi
 
 if [[ -z $(dpkg -l | grep -i php) ]]; then
-  PHP_WORKS='OK'
-else
   PHP_WORKS='FAILED'
+else
+  PHP_WORKS='OK'
 fi
 
 echo "Services check:
