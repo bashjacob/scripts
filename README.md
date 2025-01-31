@@ -6,6 +6,7 @@ Paste the link located under the script name straight into terminal!
 
 ## Usage
 
-```lamp.sh
+lamp.sh
+```bash
 curl https://raw.githubusercontent.com/bashjacob/scripts/refs/heads/test/lamp.sh | sh 
 ```
