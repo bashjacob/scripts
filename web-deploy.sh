@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-echo ""; read -r -p "Enter git repository url: " GIT_REPO
+echo ""; read -r -p "Enter git repository url: " GIT_REPO < /dev/tty
 
 # Remove existing directory and clone fresh copy
 echo "Deploying web application..."
