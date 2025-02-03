@@ -9,14 +9,14 @@ Paste the content located under the script name straight into the terminal!
 <summary>lamp.sh</summary>
 
 ```bash
-curl https://raw.githubusercontent.com/bashjacob/scripts/refs/heads/main/lamp.sh | bash 
+curl -s https://raw.githubusercontent.com/bashjacob/scripts/refs/heads/main/lamp.sh | bash 
 ```
 </details>
 
 <details>
-<summary>qe8gury-0byn</summary>
+<summary>web-deploy.sh</summary>
 
 ```bash
-#best regards to my parents!
+curl -s https://raw.githubusercontent.com/bashjacob/scripts/refs/heads/main/web-deploy.sh | bash
 ```
 </details>
