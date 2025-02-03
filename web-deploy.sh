@@ -6,7 +6,7 @@ echo ""; read -r -p "Enter git repository url: " GIT_REPO < /dev/tty
 # Remove existing directory and clone fresh copy
 echo "Deploying web application..."
 sudo rm -rf /var/www/html/*
-sudo git clone "$GIT_REPO" /var/www/html/
+sudo git clone "$GIT_REPO" /var/www/html/ > /dev/null 2>&1
 
 # Set correct permissions
 echo "Setting permissions..."
