@@ -14,9 +14,9 @@ curl -s https://raw.githubusercontent.com/bashjacob/scripts/refs/heads/main/lamp
 </details>
 
 <details>
-<summary>web-deploy.sh</summary>
+<summary>web_deploy.sh</summary>
 
 ```bash
-curl -s https://raw.githubusercontent.com/bashjacob/scripts/refs/heads/main/web-deploy.sh | bash
+curl -s https://raw.githubusercontent.com/bashjacob/scripts/refs/heads/main/web_deploy.sh | bash
 ```
 </details>
